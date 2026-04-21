@@ -1,3 +1,5 @@
+import { ColorModeToggle } from "./ColorModeToggle";
+
 export function Header() {
     console.log("Is Header an RSC?");
     const total = 99 + 99;
@@ -9,6 +11,7 @@ export function Header() {
             <span>
                 {total}
             </span>
+            <ColorModeToggle />
         </header>
     );
     
